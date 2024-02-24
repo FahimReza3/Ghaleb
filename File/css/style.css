@@ -240,11 +240,100 @@ header{
 
 }
 
+.Footer{
+    width: 100%;
+    height: 650px;
+}
 
+.Footer-Right{
+    background-color: #382e2b;
+    float: right;
+    direction: rtl;
+    width: 50%;
+    height: 650px;
+}
 
+.Footer-Left{
+    background-color: #626158;
+    width: 50%;
+    height: 650px;
+    text-align: center;
+}
 
+.Addres{
 
+    margin: 0%;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 79%;
+    text-align: center;
+    
+}
 
+.Addres h1{
+    float: right;
+    font-size: 30px;
+    font-family: 'Vazir' , sans-serif;
+    font-weight: 600;
+    color: antiquewhite;
+    margin: 2% 2% 0 0;
+
+}
+
+.Addres i{
+    font-size: 30px;
+    float: left;
+    position: relative;
+    top: 65%;
+    margin: 0 0 2% 2%;
+}
+
+.Addres i:hover{
+    color: cyan;
+}
+
+.Addres h5{
+    font-size: 15px;
+    font-family: system-ui;
+    position: relative;
+    top: 55%;
+    float: right;
+}
+
+.BioGrafi{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.BioGrafi img{
+    width: 40%;
+    text-align: center;
+    height: 280px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin: 3% 0 0 0%;
+}
+
+.BioGrafi h2{
+    color: black;
+    margin: 3% 0 3% 0;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Vazir',sans-serif;
+}
+
+.BioGrafi p{
+    margin: 3% 15%;
+    line-height: 3;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Vazir',sans-serif;
+    color: cornsilk;
+    direction: rtl;
+}
 
 
 
