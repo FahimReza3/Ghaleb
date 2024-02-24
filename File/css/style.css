@@ -6,6 +6,7 @@ box-sizing:border-box;
 
 body{
     background-color: #000;
+    color: white;
 }
 
 header{
@@ -68,18 +69,18 @@ header{
     width: 20%;
     height: 60px;
     text-align: center;
-    padding: 25px;
+    padding: 30px;
     font-size: 20px;
+    color:#000;
     font-weight: 700;
     font-family: cursive;
 }
-
 
 .Main{
     background: url("../img/Sherkat.jpg") no-repeat;
     background-size: cover;
     width: 100%;
-    height: 635px;
+    height: 640px;
     background-attachment: fixed;
 }
 
@@ -120,6 +121,35 @@ header{
     opacity: 0.6;
 }
 
+.Ashenaee{
+    background: beige;
+    width: 100%;
+    height: 700px;
+    box-shadow: 0 0 1px black;
+}
+
+.Ashenaee .Ashenaee-Right{
+    background: beige;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.Ashenaee .Ashenaee-Left{
+    background: #000;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.Ashenaee-Left img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+
+
 
 
 
@@ -155,3 +185,4 @@ header{
         transform: translateY(0)
     }
 }
+
