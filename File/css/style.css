@@ -78,9 +78,46 @@ header{
 .Main{
     background: url("../img/Sherkat.jpg") no-repeat;
     background-size: cover;
-    opacity: 0.2;
     width: 100%;
-    height: 500px;
+    height: 635px;
+    background-attachment: fixed;
+}
+
+.Main h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Vazir',sans-serif;
+    float: right;
+    position: absolute;
+    top: 17%;
+    animation: Slide-Right 1s forwards;
+    right: 7%;
+    color: white;
+}
+.Main h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Vazir',sans-serif;
+    padding: 22px;
+    position: absolute;
+    bottom: 8%;
+    left: 3%;
+    animation: Slide-Bottom 1s forwards;
+    color: white;   
+}
+
+.Main h3 span{
+    font-size: 25px;
+    font-weight: bold;
+    color: antiquewhite;
+    text-shadow: 10px 12px 4px red;
+}
+
+.Roposh{
+    background: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
 }
 
 
@@ -91,7 +128,7 @@ header{
 @keyframes Slide-Top {
 
     0%{
-        transform: translateY(100px);
+        transform: translateY(50px);
     }
 
     100%{
@@ -99,4 +136,22 @@ header{
     }
 
 }
-    
+
+@keyframes Slide-Right {
+    0%{
+        transform: translateX(50px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes Slide-Bottom {
+    0%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0)
+    }
+}
