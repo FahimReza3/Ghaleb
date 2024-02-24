@@ -2,6 +2,7 @@
 margin:0px;
 padding:0px;
 box-sizing:border-box;
+scroll-behavior: smooth;
 }
 
 body{
@@ -129,7 +130,7 @@ header{
 }
 
 .Ashenaee .Ashenaee-Right{
-    background: beige;
+    background: #828274;
     width: 50%;
     height: 100%;
     float: right;
@@ -148,8 +149,95 @@ header{
     opacity: 0.8;
 }
 
+.Ashenaee-Right .Takhfif span{
+    text-align: right;
+    float: right;
+    margin: 20px 20px 0 0;
+    font-size: 20px;
+    font-family: 'Vazir' , sans-serif;
+    font-weight: 700;
+    color: #3b2c2c;
+    animation: Slide-Right 1s 0.5s forwards;
+}
+
+.Ashenaee-Right .Takhfif span a{
+    text-decoration: none;
+    color: yellow;
+    text-shadow: 0 0 3px red;
+}
+
+.Ashenaee-Right h2{
+    color: #000;
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    animation: Slide-Right 1s 0.5s forwards;
+    font-family: 'Vazir',sans-serif;
+    direction: rtl;
+    margin: 5% 3% 3% 0;
+}
+
+.Maharat{
+    overflow: hidden;
+    width: 50%;
+    line-height: 2;
+    margin-left: 40px;
+    margin-top: 2%;
+    box-sizing: border-box;
+    animation: Slide-Bottom 1s 0.5s forwards;
+
+}
 
 
+.Maharat span{
+    font-size: 20px;
+    color: #000;
+    box-shadow: 0 0 4px;
+}
+
+.Servises{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.Servis-Bars{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.Bar{
+    width: 30%;
+    height: 300px;
+    margin: 70px 120px 0 20px;
+    transition: all ease-out 1s;
+
+}
+
+.Bar img{
+    width: 100%;
+    height: 300px;
+    border: 1px solid white;
+}
+
+.Bar:hover{
+    scale: 1.3;
+    transition: all ease-in 1s;
+    width: 80%;}
+
+
+
+.Bar h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Vazir',sans-serif;
+    color: lightslategrey;
+
+}
 
 
 
