@@ -71,6 +71,7 @@ header{
     height: 60px;
     text-align: center;
     padding: 30px;
+    animation: Slide-Left 1s forwards;
     font-size: 20px;
     color:#000;
     font-weight: 700;
@@ -374,3 +375,11 @@ header{
     }
 }
 
+@keyframes Slide-Left {
+    0%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
