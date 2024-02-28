@@ -5,5 +5,5 @@ $(document).ready(function() {
 
 
 $("#Karbord-img").click(function() {
-    
+    $(".Modal").fadeToggle();
 });
