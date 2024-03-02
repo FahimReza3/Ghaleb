@@ -286,6 +286,7 @@ body{
 .Addres i{
     font-size: 30px;
     float: left;
+    position: relative;
     top: 65%;
     margin: 0 0 2% 2%;
 }
@@ -298,6 +299,7 @@ body{
     font-size: 15px;
     font-family: system-ui;
     top: 55%;
+    position: relative;
     float: right;
 }
 
@@ -372,12 +374,13 @@ body{
 
 .Modal{
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 60%;
     display: none;
     background: #727d86d4;
     transition: all ease-out 1s;
     z-index: 1;
+    margin: 6% 0px 0px 40px;
 }
 
 .Modal-One{
@@ -404,20 +407,77 @@ body{
     padding: 40px;
 }
 
+.Modal-Body-Right {
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 9px #828282;
+    float: right;
+}
 
+.Modal-Body-Right img{
+    width: 30%;
+    border: 2px solid #878787;
+    border-radius: 50%;
+    margin: 15px 0;
+    box-shadow: 0 0 20px black;
+
+}
+
+.Modal-Body-Right h2{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Vazir' , sans-serif;
+    color: black;
+    text-shadow: 6px 7px 5px white;
+}
+
+.Modal-Body-Right h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Vazir' , sans-serif;
+    color: black;
+    margin: 7px 0 0 0;
+}
+
+.Body-Left{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.Body-Left textarea{
+    width: 100%;
+    height: 80%;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Vazir',sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.Body-Left button{
+    width: 100%;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Vazir' , sans-serif;
+    text-shadow: 4px 4px 8px red;
+}
 .Body-Modal{
     width: 100%;
     height: 60%;
-    background: aqua;
+    background: #dedede;
     text-align: center;
     box-shadow: 0px 0px 9px black;
 }
 
-.Message{
-    width: 50%;
-    height: 100%;
-    box-shadow: 0px 0px 5px red;
-    background: aquamarine;
+.Footer-Modal h2{
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Vazir' , sans-serif;
 }
 
 #Message-input{
@@ -465,6 +525,10 @@ body{
     padding: 10px;
 }
 
+.Admins span:focus{
+    background-color: #ff3608;
+}
+
 .img-Photo-Modal{
     width: 80px;
     height: 80px;
@@ -478,12 +542,6 @@ body{
 
 .admin-Modal:hover{
     scale: 0.8;
-    transition: all ease-in 1s;
-}
-
-.admin-Modal:focus{
-    scale: 1;
-    background: #317e7e;
     transition: all ease-in 1s;
 }
 
